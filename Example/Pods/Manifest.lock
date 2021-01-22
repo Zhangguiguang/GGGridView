@@ -1,15 +1,22 @@
 PODS:
-  - GGGridView (0.1.0)
+  - GGGridView (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - GGGridView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   GGGridView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGGridView: 9d015ebfbfefcc8e9bd838439ae0ee902bbf5079
+  GGGridView: 145d33b0f5e6b933bfd7861dbcb6474663686957
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: e9a935b47e99512db4457a6c809bea4f84360c63
 

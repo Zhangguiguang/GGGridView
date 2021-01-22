@@ -7,24 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BF8C57EAB858FF264C5B073FDD154E /* Pods-GGGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673E2D176FE119874226B7E5A9B3E479 /* Pods-GGGridView_Example-dummy.m */; };
+		00CE9C75C71164AEE95AAEB24CF9BAE2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00E37EB5B981C5E61C05452AFC01AA41 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D74FD526CDB83E9D9555C73478D79C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		0D8A0414E5471936DCEBCF62C02AFC81 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18C70919B9DB2A4A3F0B060F8217FEC1 /* Pods-GGGridView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD0F2997A1E810D6993D28B93FF09DD /* Pods-GGGridView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		195E78A6E66C3ADEDE43B208E7C6A7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3280AAEA8B0255FB1E3167E7C7585584 /* GGGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261B58E230A434AE7F8BD489488C7E28 /* GGGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57FFC4F267044F933302615117A67F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		62D35CAA699433CF096DD263938BB192 /* GGGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A797278B0509AD38D1D165F2D0E8DE5 /* GGGridView-dummy.m */; };
+		195E78A6E66C3ADEDE43B208E7C6A7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		1AF0E363D94097F371F371A3F1A3285A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244AA4AEA7D5402E33EB2523BD13F88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		2C0E4CF18B4B2DAEC8E6FC1DBDC5FF42 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381A085EBC29104BB6C34EA3B833B713 /* GGGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D65A3EF66FEF0F77DA2253732CB244 /* GGGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F2430FF63EB6A5A1A09889CD9A116F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD106F7DA9020E6D870ACF9E4BF2EDE /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55210546084D4D80B3A8FB794571A750 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C69A7365214110EE5389F5C00BACC7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		5706C04350A6A695037DA38F43DF029E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		57DA772E92DF5C490643656CA609D292 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5900D1EC65FB07763F670C2B0E821032 /* Pods-GGGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673E2D176FE119874226B7E5A9B3E479 /* Pods-GGGridView_Example-dummy.m */; };
+		5C408AA408D98B1C34DBC3379FC0242D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		647AB48BCB1C8C82B29E4FD772311650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		71358B95A00B267C3C83A9E88E509767 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		789E6EFF25E0DDA2DF6B593AAC3DA3F2 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4CBC0501AB2E1AED23EFC1E5722D4F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA259DCB0038DA925B3649F678C4955 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816F30149A23BB7A0FDE2B8EF46D0FBB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
 		91E4F717108F3BE89C37052C8A6CD311 /* Pods-GGGridView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE022DBAABB4B2FAD81C53DB571131D /* Pods-GGGridView_Tests-dummy.m */; };
-		D0F1D132447FBB0565A355C595D161BB /* Pods-GGGridView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B05AA13F8AF7823268E7AA3AA0ABFE /* Pods-GGGridView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2237BDCA57465683804070B948EE54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94AE7EDC22B39838FF4D9C43162896AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		9F34DD7E0D7AAA36DE2519FEF1E349ED /* GGGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB8958A7488FD92DCFF91016D2E3BEF /* GGGridView-dummy.m */; };
+		AEFBD5DC227B49D441429B0340C2CAF5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		B7B1027EC6D6ACB4FC04B1572647C800 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB17767885104A818DF0627A291ED071 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		C3536B61BE4FB415EFAB8FFC85D7EF8D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		C407D6AEC05D828A198C57FD77F3DFF4 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C710F43678D7E4F090D70D64B3C63232 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		CA304513619E5C7BF87ECFCBA73CC4EB /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6B256BBF392045CCB334FBFE0BE316 /* GGGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437C5C3FBC722633A5F43A764F53630 /* GGGridView.m */; };
+		CF99C790A72EDEAB6EA891AE2E752B26 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		E135C3CC3686D0BA035BB99791CEEA88 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E267682CB3BA940F3072FE1A5B5F25D2 /* Pods-GGGridView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B05AA13F8AF7823268E7AA3AA0ABFE /* Pods-GGGridView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E321F94F8C372F25C9B4793913AEDA35 /* GGGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED63FC31DF162B9403564A58FBFDB91 /* GGGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E790BD5557D53822F3E803AB9F14BB39 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F22F1EA24B4A5C0920883445713BC99D /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6774FE1086D494EFCF2CBFFB02B53D73 /* PBXContainerItemProxy */ = {
+		16E7C0C61CB1C1802002E0DFD3496B1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D330DA53B2E251957D97E9C39EC0A8C8;
-			remoteInfo = GGGridView;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 		90E83757F4F7795D2423DEDD1D78C68F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -33,56 +65,116 @@
 			remoteGlobalIDString = 56E6F999A1BCA309304E897354DD13C9;
 			remoteInfo = "Pods-GGGridView_Example";
 		};
+		EEAC509AA1E9B3E207328E02D4E9BB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		F92DB6277CBC741BA177DB7BE9960353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D330DA53B2E251957D97E9C39EC0A8C8;
+			remoteInfo = GGGridView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047F044958483900E4608A6F3F63BE47 /* GGGridView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGGridView-Info.plist"; sourceTree = "<group>"; };
-		05FFD349377522A24DAA8A727C37898F /* GGGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGGridView-prefix.pch"; sourceTree = "<group>"; };
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		1C238C9A38C21EB4883E86872D4A1F62 /* Pods-GGGridView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGGridView_Example.modulemap"; sourceTree = "<group>"; };
-		261B58E230A434AE7F8BD489488C7E28 /* GGGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGGridView-umbrella.h"; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2DCEBE6D6B474F66534B527E17E9AEC8 /* Pods-GGGridView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGridView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		3C7B37CD8D8AA20BD50E09E93111A801 /* Pods-GGGridView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGGridView_Tests.modulemap"; sourceTree = "<group>"; };
-		3CF593EEFD30235E7B77982F4EA93119 /* GGGridView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GGGridView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E3815971599AD1204756419230B1125 /* Pods-GGGridView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGGridView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		40B05AA13F8AF7823268E7AA3AA0ABFE /* Pods-GGGridView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGGridView_Example-umbrella.h"; sourceTree = "<group>"; };
-		412601857DF89D5F7614CFF4420402CA /* Pods_GGGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		421F82FFA70C8BB656EDF10C24B4B34B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4A797278B0509AD38D1D165F2D0E8DE5 /* GGGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGGridView-dummy.m"; sourceTree = "<group>"; };
-		55AD2AE575737582C7E5A6306C3CBE08 /* GGGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGGridView.xcconfig; sourceTree = "<group>"; };
+		412601857DF89D5F7614CFF4420402CA /* Pods_GGGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGGridView_Tests.framework; path = "Pods-GGGridView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5D83840728411F346E5914A3E5025690 /* GGGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGGridView.xcconfig; sourceTree = "<group>"; };
+		5ED63FC31DF162B9403564A58FBFDB91 /* GGGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGGridView-umbrella.h"; sourceTree = "<group>"; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		5FC1B469BF7B2567E44CDD5560E22AC4 /* Pods-GGGridView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGGridView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		673E2D176FE119874226B7E5A9B3E479 /* Pods-GGGridView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGGridView_Example-dummy.m"; sourceTree = "<group>"; };
-		7AFB2AA2C8885CF1E4D5AEEF032BFDCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4047A66E41623554825125037C1B60 /* GGGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A11A5727114116B7740DEDB4AC58B1DE /* GGGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGGridView.modulemap; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9E54D5B3C71678681387B6D915E83 /* GGGridView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGGridView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7FD01D0AF7DAF0BACF06F8922BD109F4 /* GGGridView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGGridView-Info.plist"; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4047A66E41623554825125037C1B60 /* GGGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGGridView.framework; path = GGGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB8958A7488FD92DCFF91016D2E3BEF /* GGGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGGridView-dummy.m"; sourceTree = "<group>"; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A38C52140FC339A3A6ADE10BCEDA8587 /* Pods-GGGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A69F613F970698793CDB4C02A588B83A /* GGGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGGridView-prefix.pch"; sourceTree = "<group>"; };
+		A6BEE0F81807609053EDBAED78E59647 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A960D214ED457BACBEA05A2BDD1B2661 /* Pods-GGGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B3D70A6DED4772DBD49F901DE8FCD4CD /* GGGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGGridView.modulemap; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B7D65A3EF66FEF0F77DA2253732CB244 /* GGGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGGridView.h; path = GGGridView/Classes/GGGridView.h; sourceTree = "<group>"; };
 		BAF51C8D6756E20374613F42814D977B /* Pods-GGGridView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGGridView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BBE022DBAABB4B2FAD81C53DB571131D /* Pods-GGGridView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGGridView_Tests-dummy.m"; sourceTree = "<group>"; };
 		C4929AE4762AF585B4643B05DD06C0F4 /* Pods-GGGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C55C8712F37FCC7F14BEFC24255D386B /* Pods-GGGridView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGGridView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		CD82A9D58FA9E1DBB6D2FA66B3ECE577 /* Pods-GGGridView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGGridView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D24B70AD4645A28D19C604039351BA0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D437C5C3FBC722633A5F43A764F53630 /* GGGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGGridView.m; path = GGGridView/Classes/GGGridView.m; sourceTree = "<group>"; };
 		DAD0F2997A1E810D6993D28B93FF09DD /* Pods-GGGridView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGGridView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		ECEB604FFD12DE4BF14617D268C83B9D /* Pods-GGGridView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGGridView_Tests-Info.plist"; sourceTree = "<group>"; };
-		FB10DA40CC6F0410FA54965D669C0354 /* Pods_GGGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FB10DA40CC6F0410FA54965D669C0354 /* Pods_GGGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGGridView_Example.framework; path = "Pods-GGGridView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1A344479C4974CD063FE31EBB0A666 /* Pods-GGGridView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGGridView_Example-Info.plist"; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB923F321A8AC9B53CF2ED40884FF22A /* Frameworks */ = {
+		1527A9BE4B6CECE19ABBB38E0189D563 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2237BDCA57465683804070B948EE54E /* Foundation.framework in Frameworks */,
+				244AA4AEA7D5402E33EB2523BD13F88C /* Foundation.framework in Frameworks */,
+				F22F1EA24B4A5C0920883445713BC99D /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6FE78A6AA997A8DEDF956FC68921ADC /* Frameworks */ = {
+		44D9164397620B8BA57F7B07BC56770C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FFC4F267044F933302615117A67F5C /* Foundation.framework in Frameworks */,
+				0D74FD526CDB83E9D9555C73478D79C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C665D4592E537988D615D4765011A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647AB48BCB1C8C82B29E4FD772311650 /* Foundation.framework in Frameworks */,
+				94AE7EDC22B39838FF4D9C43162896AA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,18 +189,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22B42546739A14A3177ED97449A899EC /* Support Files */ = {
+		085C5015E04F0C0CA6CC6F6D3884BF20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A11A5727114116B7740DEDB4AC58B1DE /* GGGridView.modulemap */,
-				55AD2AE575737582C7E5A6306C3CBE08 /* GGGridView.xcconfig */,
-				4A797278B0509AD38D1D165F2D0E8DE5 /* GGGridView-dummy.m */,
-				047F044958483900E4608A6F3F63BE47 /* GGGridView-Info.plist */,
-				05FFD349377522A24DAA8A727C37898F /* GGGridView-prefix.pch */,
-				261B58E230A434AE7F8BD489488C7E28 /* GGGridView-umbrella.h */,
+				9E4047A66E41623554825125037C1B60 /* GGGridView.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				FB10DA40CC6F0410FA54965D669C0354 /* Pods_GGGridView_Example.framework */,
+				412601857DF89D5F7614CFF4420402CA /* Pods_GGGridView_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGGridView";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		23AEB4583BBAC1358C203AFB855D300C /* Targets Support Files */ = {
@@ -120,12 +209,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2D1E21EF290B1F6C25D98630928F0642 /* Development Pods */ = {
+		261DCBC6CBBB31957E93787C80F22654 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				636DB893D5AAFDF3247BC5CF3633EFA9 /* GGGridView */,
+				B3D70A6DED4772DBD49F901DE8FCD4CD /* GGGridView.modulemap */,
+				5D83840728411F346E5914A3E5025690 /* GGGridView.xcconfig */,
+				9FB8958A7488FD92DCFF91016D2E3BEF /* GGGridView-dummy.m */,
+				7FD01D0AF7DAF0BACF06F8922BD109F4 /* GGGridView-Info.plist */,
+				A69F613F970698793CDB4C02A588B83A /* GGGridView-prefix.pch */,
+				5ED63FC31DF162B9403564A58FBFDB91 /* GGGridView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGGridView";
 			sourceTree = "<group>";
 		};
 		50305BFB542CA22960BF7CA7A16D6B10 /* Pods-GGGridView_Tests */ = {
@@ -144,34 +239,75 @@
 			path = "Target Support Files/Pods-GGGridView_Tests";
 			sourceTree = "<group>";
 		};
-		60107568A8A95FE8C2DD85B16767947D /* Products */ = {
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				9E4047A66E41623554825125037C1B60 /* GGGridView.framework */,
-				FB10DA40CC6F0410FA54965D669C0354 /* Pods_GGGridView_Example.framework */,
-				412601857DF89D5F7614CFF4420402CA /* Pods_GGGridView_Tests.framework */,
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
-			name = Products;
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		636DB893D5AAFDF3247BC5CF3633EFA9 /* GGGridView */ = {
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70BB96434339385CBFA3C80DED654583 /* Pod */,
-				22B42546739A14A3177ED97449A899EC /* Support Files */,
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F28BF13DAE61510E9C7418AAD0CBD6B /* GGGridView */ = {
+			isa = PBXGroup;
+			children = (
+				B7D65A3EF66FEF0F77DA2253732CB244 /* GGGridView.h */,
+				D437C5C3FBC722633A5F43A764F53630 /* GGGridView.m */,
+				D6DC64D732A6B024A8769008FA12D16B /* Pod */,
+				261DCBC6CBBB31957E93787C80F22654 /* Support Files */,
 			);
 			name = GGGridView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		70BB96434339385CBFA3C80DED654583 /* Pod */ = {
+		A54FF91530998E7471B8F53657FEC4EF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CF593EEFD30235E7B77982F4EA93119 /* GGGridView.podspec */,
-				7AFB2AA2C8885CF1E4D5AEEF032BFDCA /* LICENSE */,
-				421F82FFA70C8BB656EDF10C24B4B34B /* README.md */,
+				7F28BF13DAE61510E9C7418AAD0CBD6B /* GGGridView */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */,
+				EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B9788FC39F8176B1269A27F40E9B2478 /* Pods-GGGridView_Example */ = {
@@ -191,29 +327,47 @@
 			path = "Target Support Files/Pods-GGGridView_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2D1E21EF290B1F6C25D98630928F0642 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				60107568A8A95FE8C2DD85B16767947D /* Products */,
+				A54FF91530998E7471B8F53657FEC4EF /* Development Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				085C5015E04F0C0CA6CC6F6D3884BF20 /* Products */,
 				23AEB4583BBAC1358C203AFB855D300C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D6DC64D732A6B024A8769008FA12D16B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				74E9E54D5B3C71678681387B6D915E83 /* GGGridView.podspec */,
+				A6BEE0F81807609053EDBAED78E59647 /* LICENSE */,
+				D24B70AD4645A28D19C604039351BA0D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,11 +375,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		19D53941D5CE64F19DBBC30C8BF55B4C /* Headers */ = {
+		08309270EFB033DC216B909D3A0DB223 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3280AAEA8B0255FB1E3167E7C7585584 /* GGGridView-umbrella.h in Headers */,
+				E267682CB3BA940F3072FE1A5B5F25D2 /* Pods-GGGridView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3385B3B2D9049EA8F7FB14231FA9886 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321F94F8C372F25C9B4793913AEDA35 /* GGGridView-umbrella.h in Headers */,
+				381A085EBC29104BB6C34EA3B833B713 /* GGGridView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,30 +400,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E330303CB7BDBB2F361B11CBE98B1BDB /* Headers */ = {
+		ED7DF2C3AA97728A35163BED7517E24A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F1D132447FBB0565A355C595D161BB /* Pods-GGGridView_Example-umbrella.h in Headers */,
+				2C0E4CF18B4B2DAEC8E6FC1DBDC5FF42 /* MASCompositeConstraint.h in Headers */,
+				0D8A0414E5471936DCEBCF62C02AFC81 /* MASConstraint+Private.h in Headers */,
+				4DD106F7DA9020E6D870ACF9E4BF2EDE /* MASConstraint.h in Headers */,
+				00CE9C75C71164AEE95AAEB24CF9BAE2 /* MASConstraintMaker.h in Headers */,
+				00E37EB5B981C5E61C05452AFC01AA41 /* MASLayoutConstraint.h in Headers */,
+				55210546084D4D80B3A8FB794571A750 /* Masonry-umbrella.h in Headers */,
+				B7B1027EC6D6ACB4FC04B1572647C800 /* Masonry.h in Headers */,
+				57DA772E92DF5C490643656CA609D292 /* MASUtilities.h in Headers */,
+				C407D6AEC05D828A198C57FD77F3DFF4 /* MASViewAttribute.h in Headers */,
+				1AF0E363D94097F371F371A3F1A3285A /* MASViewConstraint.h in Headers */,
+				CA304513619E5C7BF87ECFCBA73CC4EB /* NSArray+MASAdditions.h in Headers */,
+				47F2430FF63EB6A5A1A09889CD9A116F /* NSArray+MASShorthandAdditions.h in Headers */,
+				789E6EFF25E0DDA2DF6B593AAC3DA3F2 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				E135C3CC3686D0BA035BB99791CEEA88 /* View+MASAdditions.h in Headers */,
+				7B4CBC0501AB2E1AED23EFC1E5722D4F /* View+MASShorthandAdditions.h in Headers */,
+				7BA259DCB0038DA925B3649F678C4955 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		56E6F999A1BCA309304E897354DD13C9 /* Pods-GGGridView_Example */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9356A97722A323E7B13A338A43AEA1 /* Build configuration list for PBXNativeTarget "Pods-GGGridView_Example" */;
+			buildConfigurationList = 199B9D9BBF1A0DB2D326D5B02CFC284B /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				E330303CB7BDBB2F361B11CBE98B1BDB /* Headers */,
-				9BDDDB102FA7678FEAE002DDC6E013A1 /* Sources */,
-				BB923F321A8AC9B53CF2ED40884FF22A /* Frameworks */,
-				EBECCBF6BBBBC3DB7E825B489DCB780B /* Resources */,
+				ED7DF2C3AA97728A35163BED7517E24A /* Headers */,
+				83D0C4AF041AAE39631123BFD3A73E7C /* Sources */,
+				7C665D4592E537988D615D4765011A1F /* Frameworks */,
+				31E54B7E4CAEB17697E91F10AD2BC62A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B05341E85DD5BEC92DEF59936A8B5DC /* PBXTargetDependency */,
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E6F999A1BCA309304E897354DD13C9 /* Pods-GGGridView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBE57EBC36CC6BF2C519B44E595BB4A /* Build configuration list for PBXNativeTarget "Pods-GGGridView_Example" */;
+			buildPhases = (
+				08309270EFB033DC216B909D3A0DB223 /* Headers */,
+				B9F07C8250369F7701FAEFC4E6EE0C1D /* Sources */,
+				44D9164397620B8BA57F7B07BC56770C /* Frameworks */,
+				36CF79FFD25B83774F53C3B4BD6D9C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CD38F770C96F86F6F0BB2E0193080A /* PBXTargetDependency */,
+				D47E00BAFBC2FD54438C8339C9329AAC /* PBXTargetDependency */,
 			);
 			name = "Pods-GGGridView_Example";
 			productName = "Pods-GGGridView_Example";
@@ -269,16 +466,17 @@
 		};
 		D330DA53B2E251957D97E9C39EC0A8C8 /* GGGridView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D7F4A71004EAFDD8BA6228195F20F5D /* Build configuration list for PBXNativeTarget "GGGridView" */;
+			buildConfigurationList = 74EA09ACBBEFF33A93B40873F72A7DEE /* Build configuration list for PBXNativeTarget "GGGridView" */;
 			buildPhases = (
-				19D53941D5CE64F19DBBC30C8BF55B4C /* Headers */,
-				13DC987B62A24CCC8606FE7E7E3E16DD /* Sources */,
-				E6FE78A6AA997A8DEDF956FC68921ADC /* Frameworks */,
-				4CFC277E532B05A14511C3EF16E868B4 /* Resources */,
+				B3385B3B2D9049EA8F7FB14231FA9886 /* Headers */,
+				08E9E95588ECE7AB82D792C4E48DF1CD /* Sources */,
+				1527A9BE4B6CECE19ABBB38E0189D563 /* Frameworks */,
+				85F3B25349FEA0F316C68C932D2EFF48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FAD54758D0E5A462DAD08BCEC26BFA6D /* PBXTargetDependency */,
 			);
 			name = GGGridView;
 			productName = GGGridView;
@@ -322,11 +520,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 60107568A8A95FE8C2DD85B16767947D /* Products */;
+			productRefGroup = 085C5015E04F0C0CA6CC6F6D3884BF20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D330DA53B2E251957D97E9C39EC0A8C8 /* GGGridView */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				56E6F999A1BCA309304E897354DD13C9 /* Pods-GGGridView_Example */,
 				E2BC5190135F5FFD71CF4F8FF9F5B35B /* Pods-GGGridView_Tests */,
 			);
@@ -334,7 +533,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4CFC277E532B05A14511C3EF16E868B4 /* Resources */ = {
+		31E54B7E4CAEB17697E91F10AD2BC62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF79FFD25B83774F53C3B4BD6D9C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F3B25349FEA0F316C68C932D2EFF48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,21 +561,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBECCBF6BBBBC3DB7E825B489DCB780B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13DC987B62A24CCC8606FE7E7E3E16DD /* Sources */ = {
+		08E9E95588ECE7AB82D792C4E48DF1CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D35CAA699433CF096DD263938BB192 /* GGGridView-dummy.m in Sources */,
+				9F34DD7E0D7AAA36DE2519FEF1E349ED /* GGGridView-dummy.m in Sources */,
+				CA6B256BBF392045CCB334FBFE0BE316 /* GGGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,22 +581,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BDDDB102FA7678FEAE002DDC6E013A1 /* Sources */ = {
+		83D0C4AF041AAE39631123BFD3A73E7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BF8C57EAB858FF264C5B073FDD154E /* Pods-GGGridView_Example-dummy.m in Sources */,
+				816F30149A23BB7A0FDE2B8EF46D0FBB /* MASCompositeConstraint.m in Sources */,
+				C3536B61BE4FB415EFAB8FFC85D7EF8D /* MASConstraint.m in Sources */,
+				C710F43678D7E4F090D70D64B3C63232 /* MASConstraintMaker.m in Sources */,
+				55C69A7365214110EE5389F5C00BACC7 /* MASLayoutConstraint.m in Sources */,
+				5C408AA408D98B1C34DBC3379FC0242D /* Masonry-dummy.m in Sources */,
+				BB17767885104A818DF0627A291ED071 /* MASViewAttribute.m in Sources */,
+				CF99C790A72EDEAB6EA891AE2E752B26 /* MASViewConstraint.m in Sources */,
+				71358B95A00B267C3C83A9E88E509767 /* NSArray+MASAdditions.m in Sources */,
+				E790BD5557D53822F3E803AB9F14BB39 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5706C04350A6A695037DA38F43DF029E /* View+MASAdditions.m in Sources */,
+				AEFBD5DC227B49D441429B0340C2CAF5 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F07C8250369F7701FAEFC4E6EE0C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900D1EC65FB07763F670C2B0E821032 /* Pods-GGGridView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B05341E85DD5BEC92DEF59936A8B5DC /* PBXTargetDependency */ = {
+		38CD38F770C96F86F6F0BB2E0193080A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGGridView;
 			target = D330DA53B2E251957D97E9C39EC0A8C8 /* GGGridView */;
-			targetProxy = 6774FE1086D494EFCF2CBFFB02B53D73 /* PBXContainerItemProxy */;
+			targetProxy = F92DB6277CBC741BA177DB7BE9960353 /* PBXContainerItemProxy */;
 		};
 		8C8DFF00EC3CE3F34BD354662E58788A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -397,75 +622,21 @@
 			target = 56E6F999A1BCA309304E897354DD13C9 /* Pods-GGGridView_Example */;
 			targetProxy = 90E83757F4F7795D2423DEDD1D78C68F /* PBXContainerItemProxy */;
 		};
+		D47E00BAFBC2FD54438C8339C9329AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = EEAC509AA1E9B3E207328E02D4E9BB3B /* PBXContainerItemProxy */;
+		};
+		FAD54758D0E5A462DAD08BCEC26BFA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 16E7C0C61CB1C1802002E0DFD3496B1F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1096CB7157DCA0FFF99F9CE948C32545 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A960D214ED457BACBEA05A2BDD1B2661 /* Pods-GGGridView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GGGridView_Example/Pods-GGGridView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGGridView_Example/Pods-GGGridView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1967014A29539F1E4E6C5F5350FD4D72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55AD2AE575737582C7E5A6306C3CBE08 /* GGGridView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGGridView/GGGridView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGGridView/GGGridView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGGridView/GGGridView.modulemap";
-				PRODUCT_MODULE_NAME = GGGridView;
-				PRODUCT_NAME = GGGridView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4B0C10E674E1774095C30B9C68CB45DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DCEBE6D6B474F66534B527E17E9AEC8 /* Pods-GGGridView_Tests.release.xcconfig */;
@@ -553,7 +724,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -656,7 +828,38 @@
 			};
 			name = Debug;
 		};
-		CD035CB3EAD8150569F451E3AF251553 /* Debug */ = {
+		BCD70957284DFF6F69A2D6A73D5B06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC1B41D3B0EA8AD769BE906E99BE87AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A38C52140FC339A3A6ADE10BCEDA8587 /* Pods-GGGridView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -689,10 +892,43 @@
 			};
 			name = Debug;
 		};
-		F7D7B6222EE2E62CD12DFADE0E32C980 /* Debug */ = {
+		D9E11EB355EAFAD3205B911791262CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55AD2AE575737582C7E5A6306C3CBE08 /* GGGridView.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E66B1FA9C32D0C80F56732D38615E4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D83840728411F346E5914A3E5025690 /* GGGridView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -705,7 +941,40 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GGGridView/GGGridView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GGGridView/GGGridView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGGridView/GGGridView.modulemap";
+				PRODUCT_MODULE_NAME = GGGridView;
+				PRODUCT_NAME = GGGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E870ECACC04CE7A18876752B477F79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D83840728411F346E5914A3E5025690 /* GGGridView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGGridView/GGGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGGridView/GGGridView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GGGridView/GGGridView.modulemap";
 				PRODUCT_MODULE_NAME = GGGridView;
@@ -720,9 +989,52 @@
 			};
 			name = Debug;
 		};
+		F427A18913CBF394FEEFAF86DAC975B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A960D214ED457BACBEA05A2BDD1B2661 /* Pods-GGGridView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGGridView_Example/Pods-GGGridView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGGridView_Example/Pods-GGGridView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		199B9D9BBF1A0DB2D326D5B02CFC284B /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD70957284DFF6F69A2D6A73D5B06D2 /* Debug */,
+				D9E11EB355EAFAD3205B911791262CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -732,20 +1044,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D7F4A71004EAFDD8BA6228195F20F5D /* Build configuration list for PBXNativeTarget "GGGridView" */ = {
+		74EA09ACBBEFF33A93B40873F72A7DEE /* Build configuration list for PBXNativeTarget "GGGridView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7D7B6222EE2E62CD12DFADE0E32C980 /* Debug */,
-				1967014A29539F1E4E6C5F5350FD4D72 /* Release */,
+				E870ECACC04CE7A18876752B477F79CC /* Debug */,
+				E66B1FA9C32D0C80F56732D38615E4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9356A97722A323E7B13A338A43AEA1 /* Build configuration list for PBXNativeTarget "Pods-GGGridView_Example" */ = {
+		9CBE57EBC36CC6BF2C519B44E595BB4A /* Build configuration list for PBXNativeTarget "Pods-GGGridView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD035CB3EAD8150569F451E3AF251553 /* Debug */,
-				1096CB7157DCA0FFF99F9CE948C32545 /* Release */,
+				CC1B41D3B0EA8AD769BE906E99BE87AB /* Debug */,
+				F427A18913CBF394FEEFAF86DAC975B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
