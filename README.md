@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src="./demo.png" width=250 style="border:3px solid red;"/>
+
 ## Requirements
 
 ## Installation
