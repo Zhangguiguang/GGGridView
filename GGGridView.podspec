@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangguiguang/GGGridView'
+  s.homepage         = 'https://github.com/Zhangguiguang/GGGridView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangguiguang' => 'zhanggzgzhz@gmail.com' }
-  s.source           = { :git => 'https://github.com/zhangguiguang/GGGridView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Zhangguiguang/GGGridView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
